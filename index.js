@@ -8,3 +8,5 @@ ninja=new Ninja({
 		'origin' : 'localhost'
 	}
 });
+
+ninja.startHTTP();
