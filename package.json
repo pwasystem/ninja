@@ -1,0 +1,22 @@
+{
+  "name": "ninja",
+  "version": "1.0.0",
+  "description": "HTTP and RESTFul Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/pwasystem/ninja.git"
+  },
+  "keywords": [
+    "http",
+    "rest",
+    "restful",
+    "server",
+    "html"
+  ],
+  "author": "PWA System",
+  "license": "GPL-3.0-or-later"
+}
