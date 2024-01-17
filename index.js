@@ -1,12 +1,21 @@
 var Ninja = require('./ninja.js');
 
 ninja=new Ninja({
-	'server' : {
-		'protocol' : 'http',
-		'domain' : 'localhost',
-		'port' : 80,
-		'origin' : 'localhost'
+	'server': {
+		'http' : {
+			'protocol' : 'http',
+			'domain' : 'localhost',
+			'port' : 80,
+			'origin' : 'localhost'
+		},
+		'rest' : {
+			'protocol' : 'http',
+			'domain' : 'localhost',
+			'port' : 3000,
+			'origin' : 'localhost'
+		},
 	}
 });
 
 ninja.startHTTP();
+ninja.startREST();
